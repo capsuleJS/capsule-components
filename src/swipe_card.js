@@ -122,25 +122,26 @@ class SwipeCard extends Component {
   }
 }
 
+export default SwipeCard
 
 /*-------- Testing --------*/
 
-ReactDOM.render(
-  <div style={{
-    borderWidth: 3,
-    borderRadius: 3,
-    borderStyle: 'solid',
-    borderColor: '#000',
-    position: 'absolute',
-    width: '200px',
-    height: '300px',
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    margin: 'auto'
-  }}>
-    <SwipeCard threshold={20} onLeft={() => {console.log('onLeft firing!')}} onRight={() => {console.log('onRight firing!')}}/>
-  </div>,
-  document.querySelector('#container')
-)
+// ReactDOM.render(
+//   <div style={{
+//     borderWidth: 3,
+//     borderRadius: 3,
+//     borderStyle: 'solid',
+//     borderColor: '#000',
+//     position: 'absolute',
+//     width: '200px',
+//     height: '300px',
+//     top: 0,
+//     bottom: 0,
+//     left: 0,
+//     right: 0,
+//     margin: 'auto'
+//   }}>
+//     <SwipeCard threshold={20} onLeft={() => {console.log('onLeft firing!')}} onRight={() => {console.log('onRight firing!')}}/>
+//   </div>,
+//   document.querySelector('#container')
+// )

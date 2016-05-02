@@ -102,11 +102,14 @@ class Reactor extends Component {
   }
 }
 
+export default HoldToTrigger
+export default Reactor 
+
 /*-------- Testing --------*/
 
-ReactDOM.render(
-  <HoldToTrigger wait={2000} auto={true}>
-    <Reactor/>
-  </HoldToTrigger>,
-  document.querySelector('#container')
-)
+// ReactDOM.render(
+//   <HoldToTrigger wait={2000} auto={true}>
+//     <Reactor/>
+//   </HoldToTrigger>,
+//   document.querySelector('#container')
+// )
