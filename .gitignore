@@ -1,0 +1,4 @@
+node_modules/
+**/current.js
+**/bundle.js
+**/bundle.js.map
